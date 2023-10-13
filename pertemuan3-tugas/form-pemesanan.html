@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan Barang</title>
+</head>
+
+<header style="margin-top: 50px;display: flex; justify-content: center; margin-bottom: 30px;">
+    <div style="text-align: center; padding: 15px; width: 77%; display: 
+    flex;justify-content: left; background-color: white;border-radius: 5px;">
+    <nav style="font-size: 1.1em;">
+        
+        <a style="margin-left: 50px; margin-right: 100px;" href="">Home  ></a>
+        <a style="margin-right: 100px;" href="">Generate Link  ></a>
+        <a style="margin-right: 100px;"href="">Transaction History  ></a>
+        <a style="margin-right: 100px;"href="">Policy  ></a>
+        <a href="">Logout </a>
+    </nav>    
+</div>
+</header>
+
+<body style="background-color: #dfd7d7;">
+
+    <main style="display: flex; justify-items: center;width: 80%; margin-left: 133px;
+    background-color: white;">
+    <main>
+    <aside style="margin-right: 40px; width: 20%; margin-left: 40px;margin-top: 50px;">
+    <img style="border-radius: 5px;" src="pict/batik.jpg" alt="" width="250px" height="250px" >
+    <br>
+    <input type="file" name="" id="id_file" value="Uploud picture">
+</aside>
+</main>
+
+    <main style="font-size: 1.3em;">
+        <form action="formselesai.html">
+    <ul type="none">
+        <li style="margin-top: 5px;">
+            <label style="margin-right: 93px;" for="id_title">Title Here :</label>
+            <input style="width: 456px;" type="text" id="name_title" placeholder="Nama Barang">
+        </li>
+
+        <li style="margin-top: 5px;">
+            <label style="margin-right: 80px;" for="Id_description">Description :</label>
+            <textarea name="" id="id_description" cols="60" rows="12" placeholder="Year : 2023
+
+
+Model : 
+
+
+
+
+Conditiont :"></textarea>
+        </li>
+
+        <li style="margin-top: 5px;">
+            <label style="margin-right: 34px;" for="Id_number">Account Number :</label>
+            <input style="width: 453px;" type="tel" name="" id="Id_number" placeholder="178-964-213-4">
+        </li>
+
+        <li>
+            <label style="margin-right: 134px;" for="id_bank">Bank :</label>
+            <select style="width: 461px;" name="" id="id_bank">
+                <option value="BRI">BRI</option>
+                <option value="BCA">BCA</option>
+                <option value="BNI" selected>BNI</option>
+                <option value="BTN">BTN</option>
+                <option value="Mandiri">Mandiri</option>
+            </select>
+        </li>
+
+        <li style="margin-top: 5px;">
+            <label style="margin-right: 46px;" for="Id_hold">Account Holder :</label>
+            <input style="width: 455px;" type="text" name="" id="Id_hold" placeholder="Name Here">
+        </li>
+
+                
+        <li style="margin-top: 5px;">
+            <label style="margin-right: 82px;" for="Id_trans">Transaction :</label>
+            <input  style="width: 80px;" type="number" name="" id="Id_trans" min="0">
+            <br>
+            <span style="font-size: 0.8em; margin-left: 215px;">* if the transtraction is for 3 person, chosee 3 from the drop-down list</span> 
+
+            <li>
+                <span style="font-size: 0.8em; color: green;">
+            <input style="margin-left: 215px;" type="checkbox" name="" id="id_phone" value="Boat">
+            <label for="id_phone">Send To Mobile Phone</label>
+        </span>
+        </li>
+
+        <li>
+        <span style="font-size: 0.8em; color: green;">
+        <input style="margin-left: 215px;" type="checkbox" name="" id="id_mail" value="Boat">
+        <label for="id_mail">Send To Email</label>
+        </span>
+        </li>
+
+        </li>
+
+        <li>
+            <label for="id_tel">Send To Mobile Phone :</label>
+            <input style="width: 450px;" type="tel" name="" id="Id_ntel" placeholder="082567432989">
+            <br>
+            <label style="margin-right: 68px;" for="email">Send To Email :</label>
+            <input style="width: 450px;" type="email" name="" id="email" placeholder="nabilla678@gmail.com">
+            <br><br><br>
+
+            <div> 
+            <input style="margin-left: 300px; background-color: green;width: 250px; color: white;" 
+            type="submit" name="" id="id_submit" value="Genarate Link">
+        </div>
+        </li>
+    </ul>
+</form>
+</main>
+
+</div>
+
+
+</body>
+</html>
