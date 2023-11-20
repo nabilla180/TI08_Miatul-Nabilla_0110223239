@@ -1,0 +1,13 @@
+img{
+    height:  10vw;
+    margin: 10px;
+}
+
+body{
+    margin: flex;
+    justify-content: space-around;
+}
+
+#fw{
+    width: 500px;
+}
